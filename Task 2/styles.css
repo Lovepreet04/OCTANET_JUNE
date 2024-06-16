@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#task-entry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#task-input {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#task-priority {
+    margin-right: 20px;
+}
+
+#task-due-date {
+    margin-right: 20px;
+}
+
+#add-task-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    background-color: #444;
+}
+
+#task-list-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.task-name {
+    flex-grow: 1;
+}
+
+.task-priority {
+    margin-right: 20px;
+}
+
+.task-due-date {
+    margin-right: 20px;
+}
+
+.task-complete-btn {
+    background-color: #0f0;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.task-complete-btn:hover {
+    background-color: #0c0;
+}
+
+.task-delete-btn {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.task-delete-btn:hover {
+    background-color: #c00;
+}
+
+#categories {
+    margin-top: 20px;
+}
+
+#category-list-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.category-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.category-name {
+    flex-grow: 1;
+}
+
+.category-delete-btn {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.category-delete-btn:hover {
+    background-color: #c00;
+}
